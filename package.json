@@ -1,0 +1,22 @@
+{
+  "name": "mp-bun",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "postinstall": "lefthook install",
+    "format": "bunx biome format --write",
+    "lint": "bunx biome lint",
+    "check": "bunx biome check --apply --no-errors-on-unmatched"
+  },
+  "keywords": [],
+  "author": "loong.woo",
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "^1.5.2",
+    "lefthook": "^1.6.0",
+    "miniprogram-api-typings": "^3.12.2"
+  },
+  "dependencies": {
+    "@vant/weapp": "^1.11.3"
+  }
+}

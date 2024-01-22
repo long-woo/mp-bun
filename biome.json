@@ -1,0 +1,30 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.5.0/schema.json",
+	"organizeImports": {
+		"enabled": false
+	},
+	"vcs": {
+		"enabled": true,
+		"clientKind": "git",
+		"useIgnoreFile": true
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true,
+			"complexity": {
+				"noStaticOnlyClass": "off"
+			}
+		}
+	},
+	"files": {
+		"ignoreUnknown": true,
+		"include": ["miniprogram/**/*.ts"],
+		"ignore": [
+			"typings",
+			"miniprogram/miniprogram_npm",
+			"project.config.json",
+			"project.private.config.json"
+		]
+	}
+}

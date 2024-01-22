@@ -1,0 +1,17 @@
+{
+	"pages": ["pages/index/index", "pages/web/index"],
+	"window": {
+		"navigationBarTextStyle": "black",
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "MP-BUN"
+	},
+	"sitemapLocation": "sitemap.json",
+	"lazyCodeLoading": "requiredComponents",
+	"usingComponents": {
+		"van-field": "@vant/weapp/field/index",
+		"van-checkbox": "@vant/weapp/checkbox/index",
+		"van-button": "@vant/weapp/button/index",
+		"van-notify": "@vant/weapp/notify/index"
+	}
+}
